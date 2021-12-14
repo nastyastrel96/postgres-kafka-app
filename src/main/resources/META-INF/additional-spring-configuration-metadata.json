@@ -1,0 +1,18 @@
+{
+  "properties": [
+    {
+      "name": "application.table.from",
+      "type": "java.lang.String",
+      "description": "Name of table for getting data."
+    },
+    {
+      "name": "application.table.to",
+      "type": "java.lang.String",
+      "description": "Name of table for sending data to."
+    },
+    {
+      "name": "application.mode.producer",
+      "type": "java.lang.String",
+      "description": "Which mode of App you prefer."
+    }
+  ] }
