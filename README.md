@@ -43,14 +43,14 @@ spring.kafka.properties.topic.name=demo-topic
 ### Application' modes
 
 There are two modes of application work: 
-- the first mode makes it possible to fetch data from one Data Base and send it to the message broker's topic in JSON by producer
+- the first mode makes it possible to fetch data from one database and send it to the message broker's topic in JSON by producer
 
 In order to launch it in the first "producer mode", you need
 
 ```
 java -jar app-kafka-postgres-0.0.1-SNAPSHOT.jar --application.mode.producer=true
 ```
- - the second mode makes it possible to fetch data from the message broker's topic in JSON by consumer and save in the other Data Base
+ - the second mode makes it possible to fetch data from the message broker's topic in JSON by consumer and save in the other database
 In order to launch it in the second "consumer mode", you need
 
 ```
